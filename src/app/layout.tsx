@@ -12,6 +12,24 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Kinetic Logistics | Precision Engineered",
   description: "Architecting the future of movement across Sub-Saharan Africa. Precision. Speed. Integrity.",
+  openGraph: {
+    title: "Kinetic Logistics | Precision Engineered",
+    description: "Architecting the future of movement across Sub-Saharan Africa. Precision. Speed. Integrity.",
+    images: [{
+      url: "https://lh3.googleusercontent.com/aida-public/AB6AXuAQvS5A-FSNcBT-QBj-GOuPb96v6LqPAvi2C7Arl0CCNp-PQXZz-jpx5tuB0eAtH8diogKQ-yoToqLOGq4pmg98Qn2PLPRyL-SOkjjdcpN7XQKPaOqYTzglvYbjCA3cGukh3BCahv-fkLIQubhX1MwOvetZFL68AZW55fils_5Ub_xNsEVFbbSke0br7a0G9EwFedSxyQeSZOm6aR0rMpjwC3zZbXWN4FRbyFPpVPb1DaAWUcLei-dIV3hQTYR3yE3i6nEBFA61PTo",
+      width: 1200,
+      height: 630,
+      alt: "Kinetic Logistics Cover",
+    }],
+    locale: "en_NG",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kinetic Logistics | Precision Engineered",
+    description: "Architecting the future of movement across Sub-Saharan Africa. Precision. Speed. Integrity.",
+    images: ["https://lh3.googleusercontent.com/aida-public/AB6AXuAQvS5A-FSNcBT-QBj-GOuPb96v6LqPAvi2C7Arl0CCNp-PQXZz-jpx5tuB0eAtH8diogKQ-yoToqLOGq4pmg98Qn2PLPRyL-SOkjjdcpN7XQKPaOqYTzglvYbjCA3cGukh3BCahv-fkLIQubhX1MwOvetZFL68AZW55fils_5Ub_xNsEVFbbSke0br7a0G9EwFedSxyQeSZOm6aR0rMpjwC3zZbXWN4FRbyFPpVPb1DaAWUcLei-dIV3hQTYR3yE3i6nEBFA61PTo"],
+  },
 };
 
 export default function RootLayout({
